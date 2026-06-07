@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Anujaa! 🎉💕</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Confetti Background -->
+    <div class="confetti-container" id="confetti"></div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="stars"></div>
+        <div class="heart-bg"></div>
+        
+        <div class="hero-content">
+            <h1 class="name-title">ANUJAA</h1>
+            <p class="subtitle">Happy Birthday My Best Friend! 🎂</p>
+            
+            <!-- Countdown Timer -->
+            <div class="countdown">
+                <div class="countdown-item">
+                    <span id="days">0</span>
+                    <p>Days</p>
+                </div>
+                <div class="countdown-item">
+                    <span id="hours">0</span>
+                    <p>Hours</p>
+                </div>
+                <div class="countdown-item">
+                    <span id="minutes">0</span>
+                    <p>Minutes</p>
+                </div>
+                <div class="countdown-item">
+                    <span id="seconds">0</span>
+                    <p>Seconds</p>
+                </div>
+            </div>
+
+            <p class="wish-text">June 8 - The Day The World Got More Beautiful 💕</p>
+        </div>
+    </section>
+
+    <!-- Special Memories Section -->
+    <section class="memories" id="memories">
+        <h2>Our Beautiful Moments Together</h2>
+        <div class="memories-content">
+            <p class="memory-intro">Love for you? Infinite. ♾️❤️</p>
+            
+            <div class="memory-items">
+                <div class="memory-card">
+                    <div class="memory-icon">☕</div>
+                    <h3>Coffee & Conversations</h3>
+                    <p>Endless talks over chai and coffee aur juice bhii at evening.</p>
+                </div>
+                <div class="memory-card">
+                    <div class="memory-icon">😂</div>
+                    <h3>moments</h3>
+                    <p>Favourite moment choose karna mushkil hai, kyunki tere saath har moment favourite ban jaata hai. ✨</p>
+                </div>
+                <div class="memory-card">
+                    <div class="memory-icon">🤝</div>
+                    <h3>True Support</h3>
+                    <p>Through thick and thin, you've always been there. A shoulder to lean on, a hand to hold.</p>
+                </div>
+                <div class="memory-card">
+                    <div class="memory-icon">✨</div>
+                    <h3>Unforgettable Adventures</h3>
+                    <p>Every moment with you becomes an adventure.Coldplay,Nashik,alibaug aur bhi bhot krta hain</p>
+                </div>
+                <div class="memory-card">
+                    <div class="memory-icon">💖</div>
+                    <h3>Unconditional Bond</h3>
+                    <p>Our friendship is rare and pure. The kind that doesn't need explanations, just understanding. sriff koi chutiye ke karan yeh chiz kharab maat krr</p>
+                </div>
+                <div class="memory-card">
+                    <div class="memory-icon">🌟</div>
+                    <h3>You Make Me Better</h3>
+                    <p>Being with you brings out the best in me. You inspire me every single day!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo Gallery Section -->
+    <section class="gallery" id="gallery">
+        <h2>Gallery of Beautiful Moments</h2>
+        <p class="gallery-subtitle">Click on any memory to reveal a special message</p>
+        
+        <div class="gallery-grid">
+            <div class="gallery-item" onclick="showPopup(0)">
+        <img src="C:\Users\Harsh Sharma\OneDrive\Desktop\AA\WhatsApp Image 2026-06-07 at 3.48.17 PM.jpeg" alt="Beautiful Memory" class="gallery-photo">
+                </div>
+                <p>Best Friends Forever</p>
+            </div>
+            <div class="gallery-item" onclick="showPopup(1)">
+                <img src="C:\Users\Harsh Sharma\OneDrive\Desktop\AA\WhatsApp Image 2026-06-07 at 4.18.07 PM.jpeg" alt="Beautiful Memory" class="gallery-photo">
+                </div>
+                <p>Full of Love</p>
+            </div>
+            <div class="gallery-item" onclick="showPopup(2)">
+                 <img src="C:\Users\Harsh Sharma\OneDrive\Desktop\AA\WhatsApp Image 2026-06-07 at 4.12.37 PM.jpeg" alt="Beautiful Memory" class="gallery-photo">
+                </div>
+                <p>Always Smiling</p>
+            </div>
+            <div class="gallery-item" onclick="showPopup(3)">
+                <img src="C:\Users\Harsh Sharma\OneDrive\Desktop\AA\WhatsApp Image 2026-06-07 at 3.48.20 PM.jpegg" alt="Beautiful Memory" class="gallery-photo">
+                </div>
+                <p>Shining Bright</p>
+            </div>
+            <div class="gallery-item" onclick="showPopup(4)">
+                <img src="C:\Users\Harsh Sharma\OneDrive\Desktop\AA\WhatsApp Image 2026-06-07 at 3.48.21 PM.jpeg" alt="Beautiful Memory" class="gallery-photo">
+                </div>
+                <p>You're Amazing</p>
+            </div>
+            <div class="gallery-item" onclick="showPopup(5)">
+                <img src="C:\Users\Harsh Sharma\OneDrive\Desktop\AA\WhatsApp Image 2026-06-07 at 3.48.22 PM (1).jpeg" alt="Beautiful Memory" class="gallery-photo">
+                </div>
+                <p>Beautiful Soul</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Wishes Section -->
+    <section class="wishes" id="wishes">
+        <h2>Special Birthday Wishes</h2>
+        <div class="wishes-container">
+            <div class="wish-card">
+                <p>"Teri friendship meri life ki sabse beautiful blessings mein se ek hai."</p>
+                <span>💕</span>
+            </div>
+            <div class="wish-card">
+                <p>"haa kabhi kabhi tuje bolna padta hain pr thik hainn.."</p>
+                <span>✨</span>
+            </div>
+            <div class="wish-card">
+                <p>"Ab baat nhi hona nhi milna yeh sab matter nhi krta,Tu hain vahi bhot hainn..vaise toh hamesha mein sath hu hi  tere kushi mein badme problems mein phale."</p>
+                <span>🌟 Always Here For You</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popup Modal -->
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <span class="close-popup" onclick="closePopup()">&times;</span>
+            <h2 id="popup-title"></h2>
+            <p id="popup-message"></p>
+            <div class="popup-hearts">
+                <span class="heart">💕</span>
+                <span class="heart">💕</span>
+                <span class="heart">💕</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>Made with 💕 for my dearest Anujaa</p>
+        <p class="footer-date">just wanna say...I LOVE YOU</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
